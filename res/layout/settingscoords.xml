@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:id="@+id/widget51"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:id="@+id/widget85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nastavení základních souřadnic"
+            android:textSize="32sp"    />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF0000FF" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF0000FF" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#00000000" />
+    
+        <EditText
+            android:id="@+id/latitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:hint="Zeměpisná šířka - LATITUDE"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/widget85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Šířku zadávejte v desetinném formátu odděleném tečkou, např. 49.819321"  />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#00000000" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF0000FF" />
+    
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#00000000" />
+    
+        <EditText
+            android:id="@+id/longitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:hint="Zeměpisná délka - LONGITUDE"
+            android:layout_centerVertical="true" />
+    
+        <TextView
+            android:id="@+id/widget85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Délku zadávejte v desetinném formátu odděleném tečkou, např. 18.250466"  />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#00000000" />  
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF0000FF" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#00000000" />
+        
+        <TextView
+            android:id="@+id/widget85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Na těchto souřadnicích se bude vykreslovat výchozí bod (i pro nastavené body) + bude na tyto souřadnice provedeno zaměření po startu aplikace"  />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#00000000" />  
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#FF0000FF" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#00000000" />
+        <Button
+            android:id="@+id/widget91"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pokračovat" />
+
+    </LinearLayout>
+
+</ScrollView>

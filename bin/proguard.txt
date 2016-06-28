@@ -1,0 +1,24 @@
+# view res/layout/main.xml #generated:9
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.tracker.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.tracker.IncomingSms { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.tracker.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.tracker.PointsFromAllSms { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.tracker.SettingDefaultCoordsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.tracker.SettingsPhoneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.tracker.SettingsSmsActivity { <init>(...); }
+
